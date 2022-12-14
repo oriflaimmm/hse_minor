@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Photoplace - блог</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- шапка -->
+	<header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/site.header.logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+              <li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Магазин</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="category.html">Каталог</a></li>
+                  <li class="nav-item"><a class="nav-link" href="single-product.html">Отзывы</a></li>
+                  <li class="nav-item"><a class="nav-link" href="checkout.html">Оплата</a></li>
+                  <li class="nav-item"><a class="nav-link" href="cart.html">Заказы</a></li>
+                </ul>
+							</li>
+              <li class="nav-item active"><a href="blog.html" class="nav-link">Блог</a></li>
+							<li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Личный кабинет</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="login.html">Вход</a></li>
+                  <li class="nav-item"><a class="nav-link" href="register.html">Регистрация</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+            </ul>
+
+            <ul class="nav-shop">
+              <li class="nav-item"><button><i class="ti-search"></i></button></li>
+              <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
+              <li class="nav-item"><a class="button button-header" href="category.html">Купить сейчас</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!-- конец шапки -->
+
+
+  <!-- менюшка -->	
+  <section class="blog-banner-area" id="blog">
+    <div class="container h-100">
+      <div class="blog-banner">
+        <div class="text-center">
+          <h1>Наш блог</h1>
+          <nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Блог</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- конец менюшки -->
+
+
+  <!-- кэт посты -->
+  <section class="blog_categorie_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="categories_post">
+                <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-3.jpg" alt="post">
+                <div class="categories_details">
+                    <div class="categories_text">
+                        <a href=" ">
+                            <h5>Ночная сьемка</h5>
+                        </a>
+                        <div class="border_line"></div>
+                        <p>Как снимать на вечеринках</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="categories_post">
+            <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-2.jpg" alt="post">
+            <div class="categories_details">
+              <div class="categories_text">
+                <a href=" ">
+                    <h5>Портретная фотография</h5>
+                </a>
+                <div class="border_line"></div>
+                <p>Как сделать фото лучше, чем на паспорт</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="categories_post">
+                <img class="card-img rounded-0" src="img/blog/cat-post/cat-post-1.jpg" alt="post">
+                <div class="categories_details">
+                    <div class="categories_text">
+                        <a href=" ">
+                            <h5>Кушать подано!</h5>
+                        </a>
+                        <div class="border_line"></div>
+                        <p>Как вкусно снять еду</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- вот и кончились кэт посты в моем блоге -->
+
+  <!-- основной блог -->
+  <section class="blog_area">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="blog_left_sidebar">
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="">Фуд-фотография,</a>
+                                      <a class="active" href="">Ночная съемка,</a>
+                                      <a href="">Портретная фотография,</a>
+                                      <a href="">Спорт</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="https://vk.com/a_echka" target="_blank" >Анна Антипова
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">7 мая, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">1м просмотров
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">7 комментариев
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/blog.post1.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a target="_blank" href="https://fotogora.ru/kak-fotografirovat-cherez-okno/">
+                                          <h2>Как фотографировать через окно, чтобы избежать отражений</h2>
+                                      </a>
+                                      <p>Фотоискусство не знает границ – и оконное стекло с досадными бликами и отражением 
+                                        недовольного из-за этого автора, не должно стать преградой для творчества. 
+                                        У многих профессиональных пейзажистов есть свои приемы – они успешно избавляются от 
+                                        нежелательных эффектов, делая впечатляющие изображения панорам или ночных городов. 
+                                        Джастин Тирни (Justin Tierney) – один из фотографов, которые умеют снимать через стекло. 
+                                        Профессиональный концертный композитор и кинематографист, он создает необычные проекты. 
+                                        В них музыка и визуальные решения сливаются в единый завораживающий тайм-лапс, повторяющий 
+                                        пульсацию ритма мегаполисов.</p>
+                                      <a target="_blank" class="button button-blog" href="https://fotogora.ru/kak-fotografirovat-cherez-okno/">Читать далее</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="">Ночная съемка,</a>
+                                      <a class="active" href="">Фототехнологии,</a>
+                                      <a href="">Репортажное фото,</a>
+                                      <a href="">Пейзажи</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="https://vk.com/ping.vinishko" target="_blank" >Арина Тимошенко
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">23 июля, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">69 просмотров
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">23 комментария
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/blog.post2.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a target="_blank" href="https://letohin.livejournal.com/214988.html">
+                                          <h2>Естественный свет в фотографии</h2>
+                                      </a>
+                                      <p>Продолжаю изображать из себя Льва Николаевича стараться быть активным блогером. 
+                                        Сегодня хотелось бы рассказать о том, чего так не хватает, 
+                                        нашей темно-серо-свинцовой-депрессивной, не самой солнечной белорусской зимой. 
+                                        Поговорим об естественном солнечном свете, способах его использования, и главное, 
+                                        посмотрим на примерах, что получается в тех, или иных условиях съемки.</p>
+                                      <a target="_blank" href="https://letohin.livejournal.com/214988.html" class="button button-blog">Читать далее</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="">Портреты,</a>
+                                      <a class="active" href="">Освещение,</a>
+                                      <a href="">Дневная съемка</a>
+                                      
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="https://vk.com/ksushandikk" target="_blank" >Ксеша Резина
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">7 июля, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">5к просмотров
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">5 комментариев
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/blog.post3.jpeg" alt="">
+                                  <div class="blog_details">
+                                      <a target="_blank" href="https://elena-v-m.livejournal.com/126214.html">
+                                          <h2>Время пейзажа (часть 5)</h2>
+                                      </a>
+                                      <p>В прошлой части я написала о четырёх столпах высокого Возрождения.
+                                        Конечно назвать Леонардо, Рафаэля, Микеланджело и Тициана пейзажистами, было бы ложью. 
+                                        Но, пока речь об обособленном жанре вообще вести рано, а понять откуда и как он взрос, на самом деле хочется.
+                                        Так что придётся еще какое-то время смириться с присутствием в ландскейпах "посторонних предметов"))</p>
+                                      <a target="_blank" href="https://elena-v-m.livejournal.com/126214.html" class="button button-blog">Читать далее</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="#">Пейзаж,</a>
+                                      <a class="active" href="#">Дневная съемка,</a>
+                                      <a href="#">Природа</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="https://vk.com/s_shibalkova" target="_blank" >Снежа Шибалкова
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">19 марта, 2019
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">10к просмотров
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">327 комментариев
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/blog.post4.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a target="_blank" href="https://fotogora.ru/?page_id=3483">
+                                          <h2>8 советов, как читать схемы света в фотографии</h2>
+                                      </a>
+                                      <p>Одним из первых и очень важных навыков, которые я приобрела на австралийских курсах фотографии, 
+                                        была возможность чтения схем освещения на снимках, сделанных другими фотографами.
+                                        "Почему это так важно", – спросите вы? Потому что этот навык поднимает ваше понимание управления светом 
+                                        на совершенно новый уровень, позволяет вам "читать". Появляется возможность читать освещение фотографий 
+                                        в журналах, на рекламных щитах, в портфолио ваших любимых фотографов, и вы больше никогда не удивляетесь, 
+                                        «как это было сфотографировано?». Ну, в большинстве случаев.</p>
+                                      <a target="_blank" href="https://fotogora.ru/?page_id=3483" class="button button-blog">Читать далее</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <article class="row blog_item">
+                          <div class="col-md-3">
+                              <div class="blog_info text-right">
+                                  <div class="post_tag">
+                                      <a href="">Дневная съемка,</a>
+                                      <a class="active" href="">Освещение,</a>
+                                      <a href="">Ночная съемка,</a>
+                                      <a href="">Технологии</a>
+                                  </div>
+                                  <ul class="blog_meta list">
+                                      <li>
+                                          <a href="https://vk.com/alainas" target="_blank" >Алена Щепотьева
+                                              <i class="lnr lnr-user"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">1 мая, 2020
+                                              <i class="lnr lnr-calendar-full"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">1м просмотров
+                                              <i class="lnr lnr-eye"></i>
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a href="">50к комментариев
+                                              <i class="lnr lnr-bubble"></i>
+                                          </a>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                          <div class="col-md-9">
+                              <div class="blog_post">
+                                  <img src="img/blog/blog.post5.jpg" alt="">
+                                  <div class="blog_details">
+                                      <a target="_blank" href="https://dmitry-novak.livejournal.com/18730.html">
+                                          <h2>Размышления о кино и фотографии. Часть 1</h2>
+                                      </a>
+                                      <p>
+                                        <ol>
+                                        <li>Что привлекает фотографа и зрителя вообще в кинокадре как статичной картинке?</li>
+                                        <li>Что позволяет совершенно однозначно выделить кинокадр среди обычных фотографий?</li>
+                                        <li>Что помогает превратить фотографию в кинематографический кадр?</li>
+                                       </ol>
+                                    </p>
+                                      <a target="_blank" href="https://dmitry-novak.livejournal.com/18730.html" class="button button-blog">Читать далее</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </article>
+                      <nav class="blog-pagination justify-content-center d-flex">
+                          <ul class="pagination">
+                              <li class="page-item">
+                                  <a href="" class="page-link" aria-label="Previous">
+                                      <span aria-hidden="true">
+                                          <span class="lnr lnr-chevron-left"></span>
+                                      </span>
+                                  </a>
+                              </li>
+                              <li class="page-item active">
+                                  <a href="blog.html" class="page-link">1</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="blog2page.html" class="page-link">2</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="" class="page-link">3</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="" class="page-link">4</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="" class="page-link">5</a>
+                              </li>
+                              <li class="page-item">
+                                  <a href="blog2page.html" class="page-link" aria-label="Next">
+                                      <span aria-hidden="true">
+                                          <span class="lnr lnr-chevron-right"></span>
+                                      </span>
+                                  </a>
+                              </li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+              <div class="col-lg-4">
+                  <div class="blog_right_sidebar">
+                      <aside class="single_sidebar_widget search_widget">
+                          <div class="input-group">
+                              <input type="text" class="form-control" placeholder="Поиск по сайту">
+                              <span class="input-group-btn">
+                                  <button class="btn btn-default" type="button">
+                                      <i class="lnr lnr-magnifier"></i>
+                                  </button>
+                              </span>
+                          </div>
+                          <!-- /input-group -->
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single_sidebar_widget author_widget">
+                          <img class="author_img rounded-circle" src="img/blog/milana.jpg" alt="">
+                          <h4>Милана Зубулина</h4>
+                          <p>Студентка ВШЭ СПб</p>
+                          <div class="social_icon">
+                              
+                              <a href="https://github.com/oriflaimmm">
+                                  <i class="fab fa-github"></i>
+                              </a>
+                              
+                          </div>
+                          <p>2 курс Менеджмента и Международного бизнеса, фотограф, стажер Центра Развития Карьеры
+                          </p>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single_sidebar_widget popular_post_widget">
+                          <h3 class="widget_title">Популярные публикации</h3>
+                          <div class="media post_item">
+                              <img src="img/blog/popular.post1.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="single-blog.html">
+                                      <h3>Фотограф Александр Петросян</h3>
+                                  </a>
+                                  <p>12 часов назад</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular.post2.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="single-blog.html">
+                                      <h3>Мальцовская галерея</h3>
+                                  </a>
+                                  <p>2 дня назад</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular.post3.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="single-blog.html">
+                                      <h3>Уличные фотографы</h3>
+                                  </a>
+                                  <p>4 дня назад</p>
+                              </div>
+                          </div>
+                          <div class="media post_item">
+                              <img src="img/blog/popular.post4.jpg" alt="post">
+                              <div class="media-body">
+                                  <a href="single-blog.html">
+                                      <h3>Портретная фотография</h3>
+                                  </a>
+                                  <p>1 неделю назад</p>
+                              </div>
+                          </div>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single_sidebar_widget ads_widget">
+                          <a target="blank" href="https://dk-spb.ru">
+                              <img class="img-fluid" src="img/blog/advertisement.jpg" alt="">
+                          </a>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single_sidebar_widget post_category_widget">
+                          <h4 class="widget_title">Категории</h4>
+                          <ul class="list cat-list">
+                              <li>
+                                  <a href="" class="d-flex justify-content-between">
+                                      <p>Новинки техники</p>
+                                      <p>37</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="d-flex justify-content-between">
+                                      <p>Пресеты и настройки</p>
+                                      <p>24</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="d-flex justify-content-between">
+                                      <p>Портретная фотография</p>
+                                      <p>59</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="d-flex justify-content-between">
+                                      <p>Уличная фотография</p>
+                                      <p>29</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="d-flex justify-content-between">
+                                      <p>Фуд-фотография</p>
+                                      <p>15</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="d-flex justify-content-between">
+                                      <p>Архитектура</p>
+                                      <p>09</p>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="" class="d-flex justify-content-between">
+                                      <p>Известные фотографы</p>
+                                      <p>44</p>
+                                  </a>
+                              </li>
+                          </ul>
+                          <div class="br"></div>
+                      </aside>
+                      <aside class="single-sidebar-widget newsletter_widget">
+                          <h4 class="widget_title">Новости</h4>
+                          <p>
+                            Свежайшие новости из мира фотографии и видеосъемки
+                          </p>
+                          <div class="form-group d-flex flex-row">
+                              <div class="input-group">
+                                  <div class="input-group-prepend">
+                                      <div class="input-group-text">
+                                          <i class="fa fa-envelope" aria-hidden="true"></i>
+                                      </div>
+                                  </div>
+                                  <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Введите Ваш email" onfocus="this.placeholder = ''"
+                                      onblur="this.placeholder = 'Enter email'">
+                              </div>
+                              <a href="" class="bbtns">Подписаться</a>
+                          </div>
+                          <p class="text-bottom">Вы можете отписаться в любое время</p>
+                          <div class="br"></div>
+                      </aside>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- вроде окончание блога -->
+
+  <!-- блок с соцсетями -->
+  <section class="instagram_area">
+    <div class="container box_1620">
+      <div class="insta_btn">
+        <a target="_blank" class="btn theme_btn" href="https://vk.com/yarkiy">Подпишитесь на нас в соцсетях</a>
+      </div>
+      <div class="instagram_image row m0">
+        <a target="_blank" href="https://vk.com/yarkiy?w=wall-36508769_309863"><img src="img/blog/socseti1.jpg" alt=""></a>
+        <a target="_blank" href="https://vk.com/yarkiy?w=wall-36508769_309863"><img src="img/blog/socseti2.jpg" alt=""></a>
+        <a target="_blank" href="https://vk.com/yarkiy?w=wall-36508769_309863"><img src="img/blog/socseti3.jpg" alt=""></a>
+        <a target="_blank" href="https://vk.com/yarkiy?w=wall-36508769_309863"><img src="img/blog/socseti4.jpg" alt=""></a>
+        <a target="_blank" href="https://vk.com/yarkiy?w=wall-36508769_309863"><img src="img/blog/socseti5.jpg" alt=""></a>
+        <a target="_blank" href="https://vk.com/yarkiy?w=wall-36508769_309863"><img src="img/blog/socseti6.jpg" alt=""></a>
+      </div>
+    </div>
+  </section>
+  <!-- конец блока с  соцсетями -->
+  
+
+  <!-- нижний футер -->	
+	<footer>
+		<div class="footer-area">
+			<div class="container">
+				<div class="row section_gap">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title large_title">Наша миссия</h4>
+							<p>
+								Мы созданы для того, чтобы у каждого возникало желание делать отличные фотокадры и была возможность печатать качественные фотографии.
+							</p>
+							<p>
+								Для вас мы постоянно пополняем и обновляем наш ассортимент, разрабатываем акции и системы выгодных скидок, информируем наших покупателей о появлении новинок.
+							</p>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Быстрый доступ</h4>
+							<ul class="list">
+								<li><a href="index.html">Главная</a></li>
+								<li><a href="category.html">Магазин</a></li>
+								<li><a href="blog.html">Блог</a></li>
+								<li><a href="single-product.html">Отзывы</a></li>
+								<li><a href="cart.html">Корзина</a></li>
+								<li><a href="contact.html">Контакты</a></li>
+                                <li><a href="#blog">Наверх</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget instafeed">
+							<h4 class="footer_title">Галерея</h4>
+							<ul class="list instafeed d-flex flex-wrap">
+								<li><img src="img/main/site.main.img22.jpeg" alt=""></li>
+								<li><img src="img/main/site.main.img23.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img24.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img25.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img26.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img27.jpg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Свяжитесь с нами</h4>
+							<div class="ml-40">
+								<p class="sm-head">
+									<span class="fa fa-location-arrow"></span>
+									Адрес магазина
+								</p>
+								<p>Чапыгина 31к1</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-phone"></span>
+									Контакты
+								</p>
+								<p>
+									+7 (800) 555-35-35 <br>
+									+7 (234) 236-36-36 
+								</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-envelope"></span>
+									Почта
+								</p>
+								<p>
+									photoplace@mail.ru <br>
+									photomanager@mail.ru
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- конец нижнего футера -->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Photoplace - главная</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- шапка -->
+	<header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/site.header.logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+              <li class="nav-item active"><a class="nav-link" href="index.html">Главная</a></li>
+              <li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Магазин</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="category.html">Каталог</a></li>
+                  <li class="nav-item"><a class="nav-link" href="single-product.html">Отзывы</a></li>
+                  <li class="nav-item"><a class="nav-link" href="checkout.html">Оплата</a></li>
+                  <li class="nav-item"><a class="nav-link" href="cart.html">Корзина</a></li>
+                </ul>
+							</li>
+              <li class="nav-item"><a href="blog.html" class="nav-link">Блог</a></li>
+							<li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Личный кабинет</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="login.html">Вход</a></li>
+                  <li class="nav-item"><a class="nav-link" href="register.html">Регистрация</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+            </ul>
+
+            <ul class="nav-shop">
+              <li class="nav-item"><button><i class="ti-search"></i></button></li>
+              <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
+              <li class="nav-item"><a class="button button-header" href="category.html" >Купить сейчас</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!-- конец шапки -->
+
+  <main class="site-main">
+    
+    <!-- рекламка -->
+    <section class="hero-banner">
+      <div class="container">
+        <div class="row no-gutters align-items-center pt-60px">
+          <div class="col-5 d-none d-sm-block">
+            <div class="hero-banner__img">
+              <img class="img-fluid" src="img/main/site.main.img1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
+            <div class="hero-banner__content">
+              <h4>PHOTOPLACE</h4>
+              <h1>Все для Ваших лучших фото!</h1>
+              <p>
+                Мы созданы для того, чтобы у каждого возникало желание делать отличные фотокадры и была возможность печатать качественные фотографии.</p>
+              <a id="header" class="button button-hero" href="category.html">Перейти к покупкам</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- конец рекламки -->
+
+    <!-- товары -->
+    <section class="section-margin mt-0">
+      <div class="owl-carousel owl-theme hero-carousel">
+        <div class="hero-carousel__slide">
+          <img src="img/main/site.main.img2.png" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>Canon EOS 90D</h3>
+            <p>Фотоаппараты и камеры
+            </p>
+          </a>
+        </div>
+        <div class="hero-carousel__slide">
+          <img src="img/main/site.main.img3.jpg" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>Вспышка накамерная Canon</h3>
+            <p>Вспышки и объективы</p>
+          </a>
+        </div>
+        <div class="hero-carousel__slide">
+          <img src="img/main/site.main.img4.jpg" alt="" class="img-fluid">
+          <a href="#" class="hero-carousel__slideOverlay">
+            <h3>Октабокс Falcon Eyes FEA-OB15 BW</h3>
+            <p>Внешнее освещение</p>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- конец товаров -->
+
+    <!-- блок популярных товаров  --> 
+    <section class="section-margin calc-60px">
+      <div class="container">
+        <div class="section-intro pb-60px">
+          <p>Популярные товары</p>
+          <h2>Часто <span class="section-intro__style">покупаемые</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/main/site.main.img5.jpg" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Объективы</p>
+                <h4 class="card-product__title"><a href="single-product.html">Объектив Laowa 15mm f/4.5 Zero-D Shift Canon RF</a></h4>
+                <p class="card-product__price">69 999₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/main/site.main.img6.jpg" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Внешние вспышки</p>
+                <h4 class="card-product__title"><a href="single-product.html">Вспышка Canon SPEEDLITE 470EX-AI
+                  </a></h4>
+                <p class="card-product__price">49 990₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/main/site.main.img7.jpg" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Камеры</p>
+                <h4 class="card-product__title"><a href="single-product.html">Фотоаппарат Canon EOS 850D kit 18-135 IS USM</a></h4>
+                <p class="card-product__price">112 999₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/main/site.main.img8.jpg" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Осветительное оборудование</p>
+                <h4 class="card-product__title"><a href="single-product.html">Октабокс Falcon Eyes StrobMaster 60</a></h4>
+                <p class="card-product__price">6 110₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/main/site.main.img9.jpg" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Аксессуары</p>
+                <h4 class="card-product__title"><a href="single-product.html">Карта памяти SanDisk SDXC 64GB Class10 Extreme V30 UHS-I U3</a></h4>
+                <p class="card-product__price">1 590₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/main/site.main.img10.jpeg" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Внешние вспышки</p>
+                <h4 class="card-product__title"><a href="single-product.html">Вспышка Profoto A10 для Canon</a></h4>
+                <p class="card-product__price">107 490₽</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/main/site.main.img11.jpg" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Объективы</p>
+                <h4 class="card-product__title"><a href="single-product.html">Объектив Canon RF 5.2mm f/2.8 L Dual Fisheye</a></h4>
+                <p class="card-product__price">Предзаказ</p>
+              </div> 
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card text-center card-product">
+              <div class="card-product__img">
+                <img class="card-img" src="img/main/site.main.img12.jpg" alt="">
+                <ul class="card-product__imgOverlay">
+                  <li><button><i class="ti-search"></i></button></li>
+                  <li><button><i class="ti-shopping-cart"></i></button></li>
+                  <li><button><i class="ti-heart"></i></button></li>
+                </ul>
+              </div>
+              <div class="card-body">
+                <p>Фотоаппараты</p>
+                <h4 class="card-product__title"><a href="#">Беззеркальный фотоаппарат Fujifilm X-T4 Kit 18-55mm</a></h4>
+                <p class="card-product__price">159 990₽</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- конец блока популярных товаров -->  
+
+
+    <!-- скидки --> 
+    <section class="offer" id="parallax-1" data-anchor-target="#parallax-1" data-300-top="background-position: 20px 30px" data-top-bottom="background-position: 0 20px">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-5">
+            <div class="offer__content text-center">
+              <h3>Скидки до 50%</h3>
+              <h4>Зимняя распродажа</h4>
+              <p>Создайте новые воспоминания в новом году</p>
+              <a class="button button--active mt-3 mt-xl-4" href="category.html">Перейти к покупкам</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- конец скидок.... --> 
+
+    <!-- еще популярные товары --> 
+    <section class="section-margin calc-60px">
+      <div class="container">
+        <div class="section-intro pb-60px">
+          <p>Популярные товары</p>
+          <h2>Часто <span class="section-intro__style">покупаемые</span></h2>
+        </div>
+        <div class="owl-carousel owl-theme" id="bestSellerCarousel">
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/main/site.main.img14.jpg" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>Фотоаппараты</p>
+              <h4 class="card-product__title"><a href="single-product.html">Зеркальный фотоаппарат Canon EOS 250D Kit 18-55 IS STM </a></h4>
+              <p class="card-product__price">57 990₽</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/main/site.main.img15.jpg" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>Объективы</p>
+              <h4 class="card-product__title"><a href="single-product.html">Объектив Panasonic Lumix S 20-60mm f/3.5-5.6</a></h4>
+              <p class="card-product__price">46 990₽</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/main/site.main.img16.jpg" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>Вспышки</p>
+              <h4 class="card-product__title"><a href="single-product.html">Godox ThinkLite TT685O TTL для Olympus / Panasonic</a></h4>
+              <p class="card-product__price">Предзаказ</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/main/site.main.img17.jpg" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>Вспышки</p>
+              <h4 class="card-product__title"><a href="single-product.html">Телеконвертер Tamron TC-X14 1.4x для Canon</a></h4>
+              <p class="card-product__price">35 990₽</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/main/site.main.img18.jpg" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>Вспышки</p>
+              <h4 class="card-product__title"><a href="single-product.html">Nikon Speedlight R1C1 Kit (SB-R200 + SU-800 + набор аксессуаров в кейсе)</a></h4>
+              <p class="card-product__price">65 990₽</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/main/site.main.img19.jpg" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>Сумки, чехлы, рюкзаки</p>
+              <h4 class="card-product__title"><a href="single-product.html">Рюкзак Tenba Fulton v2 16L All WR Backpack</a></h4>
+              <p class="card-product__price">10 700₽</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/main/site.main.img20.jpg" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>Средства по уходу за техникой</p>
+              <h4 class="card-product__title"><a href="single-product.html">Карандаш для чистки оптики Lenspen LP-1</a></h4>
+              <p class="card-product__price">1 590₽</p>
+            </div>
+          </div>
+
+          <div class="card text-center card-product">
+            <div class="card-product__img">
+              <img class="img-fluid" src="img/main/site.main.img21.jpg" alt="">
+              <ul class="card-product__imgOverlay">
+                <li><button><i class="ti-search"></i></button></li>
+                <li><button><i class="ti-shopping-cart"></i></button></li>
+                <li><button><i class="ti-heart"></i></button></li>
+              </ul>
+            </div>
+            <div class="card-body">
+              <p>Осветительное оборудование</p>
+              <h4 class="card-product__title"><a href="single-product.html">Моноблок Falcon Eyes TE-600BW v3.0, 600 Дж</a></h4>
+              <p class="card-product__price">17 727₽</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- конец популярных товаров --> 
+
+    <!-- блок со статьями из блога --> 
+    <section class="blog">
+      <div class="container">
+        <div class="section-intro pb-60px">
+          <p>Обзоры на наши товары</p>
+          <h2>Последние <span class="section-intro__style">новости</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/main/site.main.img28.blog1.jpg" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">Милана</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 5 комментариев</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="blog.html">Основы предметной съемки: практические рекомендации
+                  </a></h4>
+                <p>Красивый и оригинальный снимок товара сразу заинтересует потенциального покупателя. Мы собрали несколько базовых приемов, которые профессионалы применяют в рекламной съемке и не только.</p>
+                <a class="card-blog__link" href="blog.html">Читать далее <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/main/site.main.img29.blog2.jpg" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">Милана</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 15 комментариев</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="blog.html">Как стать fashion-фотографом?</a></h4>
+                <p>Для тех, кто всерьез настроен стать фэшн-фотографом, наши эксперты совместно с ведущим европейским университетом моды Istituto Marangoni подготовили несколько рекомендаций.</p>
+                <a class="card-blog__link" href="blog.html">Читать далее <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+            <div class="card card-blog">
+              <div class="card-blog__img">
+                <img class="card-img rounded-0" src="img/main/site.main.img30.blog3.jpg" alt="">
+              </div>
+              <div class="card-body">
+                <ul class="card-blog__info">
+                  <li><a href="#">Милана</a></li>
+                  <li><a href="#"><i class="ti-comments-smiley"></i> 100 комментариев</a></li>
+                </ul>
+                <h4 class="card-blog__title"><a href="blog.html">Азы "блогерства". Какая камера нужна вам?</a></h4>
+                <p>Начинающий блогер задумается: достаточно ли одного телефона для ведения блога или заморочиться выбором профессиональной камеры?</p>
+                <a class="card-blog__link" href="blog.html">Читать далее <i class="ti-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- конец блока про блог --> 
+
+    <!-- блок подпишитесь на наши новости -->
+    <section class="subscribe-position">
+      <div class="container">
+        <div class="subscribe text-center">
+          <h3 class="subscribe__title">Подпишитесь на наши обновления</h3>
+          <p>Свежайшие новости из мира фотографии и видеосъемки</p>
+          <div id="mc_embed_signup">
+            <form target="_blank" action="http://185.182.111.214:7628/cgi-bin/form_action.py" method="get" class="subscribe-form form-inline mt-5 pt-1">
+              <div class="form-group ml-sm-auto">
+                <input class="form-control mb-1" type="email" name="EMAIL" placeholder="Введите ваш Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ваш Email'" >
+                <div class="info"></div>
+              </div>
+              <button class="button button-subscribe mr-auto mb-1" type="submit">Подписаться</button>
+              <div style="position: absolute; left: -5000px;">
+                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+              </div>
+
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+    <!-- конец блока подпишитесь на наши новости --> 
+
+    
+
+  </main>
+
+
+  <!-- нижний футер -->	
+	<footer class="footer">
+		<div class="footer-area">
+			<div class="container">
+				<div class="row section_gap">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title large_title">Наша миссия</h4>
+							<p>
+								Мы созданы для того, чтобы у каждого возникало желание делать отличные фотокадры и была возможность печатать качественные фотографии.
+							</p>
+							<p>
+								Для вас мы постоянно пополняем и обновляем наш ассортимент, разрабатываем акции и системы выгодных скидок, информируем наших покупателей о появлении новинок.
+							</p>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Быстрый доступ</h4>
+							<ul class="list">
+								<li><a href="index.html">Главная</a></li>
+								<li><a href="category.html">Магазин</a></li>
+								<li><a href="blog.html">Блог</a></li>
+								<li><a href="single-product.html">Отзывы</a></li>
+								<li><a href="cart.html">Корзина</a></li>
+								<li><a href="contact.html">Контакты</a></li>
+                <li><a href="#header">Наверх</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget instafeed">
+							<h4 class="footer_title">Галерея</h4>
+							<ul class="list instafeed d-flex flex-wrap">
+								<a href="img/main/site.main.img22 copy.jpeg" target="_blank "><li><img src="img/main/site.main.img22.jpeg" alt=""></li></a>
+								<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank "><li><img src="img/main/site.main.img23.jpg" alt=""></li></a>
+								<li><img src="img/main/site.main.img24.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img25.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img26.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img27.jpg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Свяжитесь с нами</h4>
+							<div class="ml-40">
+								<p class="sm-head">
+									<span class="fa fa-location-arrow"></span>
+									Адрес магазина
+								</p>
+								<p>Чапыгина 31к1</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-phone"></span>
+									Контакты
+								</p>
+								<p>
+									+7 (800) 555-35-35 <br>
+									+7 (234) 236-36-36 
+								</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-envelope"></span>
+									Почта
+								</p>
+								<p>
+									photoplace@mail.ru <br>
+									photomanager@mail.ru
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </footer>
+<!-- конец нижнего футера -->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

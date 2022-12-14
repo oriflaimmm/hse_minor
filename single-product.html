@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Photoplace - Отзывы</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<!-- шапка сайта -->
+	<header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/site.header.logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+              <li class="nav-item active submenu dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Магазин</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="category.html">Каталог</a></li>
+                  <li class="nav-item"><a class="nav-link" href="single-product.html">Отзывы</a></li>
+                  <li class="nav-item"><a class="nav-link" href="checkout.html">Оплата</a></li>
+                  <li class="nav-item"><a class="nav-link" href="cart.html">Заказы</a></li>
+                </ul>
+							</li>
+			  <li class="nav-item"><a href="blog.html" class="nav-link">Блог</a></li>
+							<li class="nav-item submenu dropdown">
+                <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Личный кабинет</a>
+                <ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="login.html">Вход</a></li>
+                  <li class="nav-item"><a class="nav-link" href="register.html">Регистрация</a></li>									
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+            </ul>
+
+            <ul class="nav-shop">
+              <li class="nav-item"><button><i class="ti-search"></i></button></li>
+              <li class="nav-item"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
+              <li class="nav-item"><a class="button button-header" href="category.html">Купить сейчас</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!-- конец шапочки -->
+	
+	<!-- блок навигации на этой страничке -->	
+	<section class="blog-banner-area" id="blog">
+		<div class="container h-100">
+			<div class="blog-banner">
+				<div class="text-center">
+					<h1>Отзывы</h1>
+					<nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Главная </a></li>
+              <li class="breadcrumb-item active" aria-current="page"> Отзывы</li>
+            </ol>
+          </nav>
+				</div>
+			</div>
+    </div>
+	</section>
+	<!-- конец блока навигации на этой страничке -->
+
+
+  <!-- блок про товар -->
+	<div class="product_image_area">
+		<div class="container">
+			<div class="row s_product_inner">
+				<div class="col-lg-6">
+					<div class="owl-carousel owl-theme s_Product_carousel">
+						<div class="single-prd-item">
+							<img class="img-fluid" src="img/main/site.main.img7.jpg" alt="">
+						</div>
+						<div class="single-prd-item">
+							<img class="img-fluid" src="img/shop/site.shop.img1.jpg" alt="">
+						</div>
+						<div class="single-prd-item">
+							<img class="img-fluid" src="img/shop/site.shop.img2.jpg" alt="">
+						</div> 
+					</div>
+				</div>
+				<div class="col-lg-5 offset-lg-1">
+					<div class="s_product_text">
+						<h3>Фотоаппарат Canon EOS 850D kit 18-135 IS USM</h3>
+						<h2>112 999₽</h2>
+						<ul class="list">
+							<li><a class="active" href=""><span>Категория:</span> Фотоаппараты</a></li>
+							<li><a href=""><span>Наличие:</span> Есть на складе</a></li>
+						</ul>
+						<p>Новый уровень управления творческими возможностями: 
+							создавайте фотографии с высокой детализацией и потрясающие видео в формате 4K с помощью легкой 
+							цифровой зеркальной камеры с возможностями подключения, которая вдохновляет и впечатляет возможностями.</p>
+						<div class="product_count">
+              <label for="qty">Количество:</label>
+              <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
+							 class="increase items-count" type="button"><i class="ti-angle-left"></i></button>
+							<input type="text" name="qty" id="sst" size="2" maxlength="12" value="1" title="Quantity:" class="input-text qty">
+							<button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
+               class="reduced items-count" type="button"><i class="ti-angle-right"></i></button>
+							<a class="button primary-btn" href="cart.html">Добавить в корзину</a>               
+						</div>
+						<div class="card_area d-flex align-items-center">
+							<a class="icon_btn" href="#"><i class="lnr lnr lnr-diamond"></i></a>
+							<a class="icon_btn" href="#"><i class="lnr lnr lnr-heart"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- конец блока про товар -->
+
+	<!-- описание товара -->
+	<section class="product_description_area">
+		<div class="container">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item">
+					<a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Описание</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+					 aria-selected="false">Характеристики</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review"
+					 aria-selected="false">Отзывы</a>
+				</li>
+			</ul>
+			<div class="tab-content" id="myTabContent">
+				<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+					<p>Зеркальная камера Canon EOS 850D Kit 18-135 IS USM поставляется в комплекте с объективом, который характеризуется фокусным расстоянием в пределах 18-135 мм и диафрагмой f/3/5-5.6.
+						Матрица CMOS 24.1 Мп с поддержкой чувствительности до 51200 ISO отличается высокой производительностью. 
+						В оснащение данной модели входят оптическая система стабилизации изображения и встроенная вспышка с дальностью действия 12 м. 
+						В камере установлен экран диагональю 3 дюйма с сенсорной панелью, который гарантирует комфортный просмотр отснятого материала и простое управление прикосновениями.
+						Из интерфейсов реализованы стандарты беспроводной связи Wi-Fi, GPS и Bluetooth, а также считыватель карт памяти. 
+						Полноценного заряда аккумулятора емкостью 1040 мА*ч достаточно для создания 800 фотоснимков. 
+						Зеркальная камера Canon EOS 850D Kit 18-135 IS USM позволит вам создавать фотографии с высокими показателями детализации и записывать реалистичное видео с разрешением до 4K.</p>
+					<p>Откройте новые творческие возможности и управляйте процессом с этой универсальной цифровой зеркальной камерой для создания фото и видео.</p>
+				</div>
+				<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+					<div class="table-responsive">
+						<table class="table" style="background-image: url(img/shop/background.table.png);">
+							<tbody>
+								<tr>
+									<td>
+										<h5>Страна-производитель</h5>
+									</td>
+									<td>
+										<h5>Япония</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5>Тип</h5>
+									</td>
+									<td>
+										<h5>Зеркальная камера</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5>Число эффективных пикселей</h5>
+									</td>
+									<td>
+										<h5>24.1 Мп</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5>Размер матрицы</h5>
+									</td>
+									<td>
+										<h5>22.3 х 14.9 мм</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5>ISO</h5>
+									</td>
+									<td>
+										<h5>100 - 25600</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5>Фокусное расстояние</h5>
+									</td>
+									<td>
+										<h5>18 - 135 мм</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5>Экспокоррекция</h5>
+									</td>
+									<td>
+										<h5>+- 5 EV (с шагом 1/3, 1/2 ступени)</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5>Разрешение изображения</h5>
+									</td>
+									<td>
+										<h5>6000x4000</h5>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<h5>Сайт продавца</h5>
+									</td>
+									<td>
+										<a target="blank" href="https://www.canon.ru"><img  src="img/shop/hyperlink.table.png" alt=""></a>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>	
+				<div class="tab-pane fade show active" id="review" role="tabpanel" aria-labelledby="review-tab">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="row total_rate">
+								<div class="col-6">
+									<div class="box_total">
+										<h5>Общий рейтинг</h5>
+										<h4>5.0</h4>
+										<h6>(3 отзыва)</h6>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="rating_list">
+										<h3>На основе 3 отзывов</h3>
+										<ul class="list">
+											<li><a href="">5 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													 class="fa fa-star"></i><i class="fa fa-star"></i> (3)</a></li>
+											<li><a href="">4 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+													 class="fa fa-star"></i> (0)</a></li>
+											<li><a href="">3 <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i>(0)</a></li>
+											<li><a href="">2 <i class="fa fa-star"></i><i class="fa fa-star"></i> (0)</a></li>
+											<li><a href="">1 <i class="fa fa-star"></i> (0)</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="review_list">
+								<div class="review_item">
+									<div class="media">
+										<div class="d-flex">
+											<img style="border-radius: 50%;" src="img/blog/otzyv.avtor1.jpg" alt="">
+										</div>
+										<div class="media-body">
+											<h4>Иван Смоляков</h4>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<p>Хороший во всех смыслах аппарат — быстрый новый камешек, крутая матрица, 
+										хоть пиксели не показатель, конечно. Хваленое качество записи видео 4К— на борту. 
+										Видео вообще снимает чуть не на кадры его нарезай. Полупрофессиональная камера, 
+										с такой не стыдно к операторам подойти)) За своего не примут, конечно, но и сильно не побьют. 
+										Автофокус следит за взглядом, очень выразительные фото получаются лиц и даже в движении живая картинка. 
+										При 1600 ISO не заметил шума, тогда когда в предыдущих моделях этот показатель был критичным. 
+										В общем— рекомендую как приятную замену для тех, кто устал тягать с собой капризные 70D, к примеру.</p>
+								</div>
+								<div class="review_item">
+									<div class="media">
+										<div class="d-flex">
+											<img style="border-radius: 50%;" src="img/blog/otzyv.avtor2.jpg" alt="">
+										</div>
+										<div class="media-body">
+											<h4>Матвей Топычканов</h4>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<p>Хорошая крепкая камера на все случаи жизни: без труда вытянет видео 4К, 
+										серию из сотни-другой кадров. Долго продержит аккумулятор, 
+										если приходится выезжать на природу для отдыха или специально для съемок, 
+										рекомендую брать запасной. Удобно снимать с боковушкой, особенно “над головой-впереди” 
+										или из окна машины для любителей экстрим-видео или фотографий. Доброго слова заслуживает китовый объектив. 
+										Универсален, я не называл бы его топовым, но просто потому что видел китовые объективы “потоповее” 
+										при равной универсальности у тех же Canon.</p>
+								</div>
+								<div class="review_item">
+									<div class="media">
+										<div class="d-flex">
+											<img style="border-radius: 50%;" src="img/blog/otzyv.avtor3.jpg" alt="">
+										</div>
+										<div class="media-body">
+											<h4>Юрий Деменев</h4>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+										</div>
+									</div>
+									<p>Не понимаю слова “профессиональная”, “полупрофессиональная” техника. 
+										Вот техника, которая позволяет зарабатывать при высокой функцинальности— вполне себе профессиональная. 
+										Хотя сам бренд считает камеру “крепким середнячком”. Да, возможно камеру продвигали как замену 800D, 
+										а нечаянно получили крутую видуху. Такой удобно снимать, предположим, из толпы в плохом освещении видео.
+										У меня стойкая ассоциация этой тушки с камерофоном от Nokia N90. Тоже крутые пиксели, но заточенные под видео. 
+										Создалось такое впечатление, что и с этим Canon-ом такая же история. Вцелом, камера многофункциональна, 
+										имеет дружелюбный интерфейс, удобно держится даже в широкой мужской руке.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="review_box">
+								<h4>Добавить отзыв</h4>
+								<p>Ваша оценка:</p>
+								<ul class="list">
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+									<li><a href=""><i class="fa fa-star"></i></a></li>
+								</ul>
+								<p>звезд</p>
+                <form action="http://185.182.111.214:7628/cgi-bin/form_action.py" class="form-contact form-review mt-3" method="post">
+                  <div class="form-group">
+                    <input class="form-control" name="name" type="text" placeholder="Введите ваше имя" required>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" name="email" type="email" placeholder="Ввдите email" required>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" name="subject" type="text" placeholder="Достоинства">
+                  </div>
+				  <div class="form-group">
+                    <input class="form-control" name="subject" type="text" placeholder="Недостатки">
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control different-control w-100" name="textarea" id="textarea" cols="30" rows="5" placeholder="Комментарий"></textarea>
+                  </div>
+                  <div class="form-group text-center text-md-right mt-3">
+                    <button type="submit" class="button button--active button-review">Отправить</button>
+                  </div>
+                </form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- конец описания товара -->
+
+	<!-- каруселька с товарами --> 
+	<section class="related-product-area">
+		<div class="container">
+			<div class="section-intro pb-60px">
+        <p>Популярные товары</p>
+        <h2>Часто <span class="section-intro__style"> покупаемые</span></h2>
+      </div>
+			<div class="row mt-30">
+        <div class="col-sm-6 col-xl-3 mb-4 mb-xl-0">
+          <div class="single-search-product-wrapper">
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.1.jpg" alt=""></a>
+              <div class="desc">
+                  <a href="" class="title">Светофильтр Marumi Super Lens Protect</a>
+                  <div class="price">890₽</div>
+              </div>
+            </div>
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.2.jpg" alt=""></a>
+              <div class="desc">
+                <a href="" class="title">JBL Synchros S300i</a>
+                <div class="price">7 609₽</div>
+              </div>
+            </div>
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.3.jpg" alt=""></a>
+              <div class="desc">
+                <a href="" class="title">Штатив Manfrotto MT190GOA4</a>
+                <div class="price">20 900₽</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-xl-3 mb-4 mb-xl-0">
+          <div class="single-search-product-wrapper">
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.4.jpg" alt=""></a>
+              <div class="desc">
+                  <a href="" class="title">Canon EOS 6D Mark II Kit 50 1.8 stm</a>
+                  <div class="price">209 900₽</div>
+              </div>
+            </div>
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.5.jpg" alt=""></a>
+              <div class="desc">
+                <a href="" class="title">Canon Mount Adapter </a>
+                <div class="price">19 900₽</div>
+              </div>
+            </div>
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.6.jpg" alt=""></a>
+              <div class="desc">
+                <a href="" class="title">Betwix Reverse Macro Adapter</a>
+                <div class="price">490₽</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-xl-3 mb-4 mb-xl-0">
+          <div class="single-search-product-wrapper">
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.7.jpg" alt=""></a>
+              <div class="desc">
+                  <a href="" class="title">Sunpak HB-35 для Nikon Af-S 18-200</a>
+                  <div class="price">1 490₽</div>
+              </div>
+            </div>
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.8.jpg" alt=""></a>
+              <div class="desc">
+                <a href="" class="title">YongNuo AF 100mm f/2 Canon EF</a>
+                <div class="price">12 109₽</div>
+              </div>
+            </div>
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.9.jpg" alt=""></a>
+              <div class="desc">
+                <a href="" class="title">Кольцевая лампа</a>
+                <div class="price">1 900₽</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-xl-3 mb-4 mb-xl-0">
+          <div class="single-search-product-wrapper">
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.10.jpg" alt=""></a>
+              <div class="desc">
+                  <a href="" class="title">Raylab RF-BR1317-W</a>
+                  <div class="price">790₽</div>
+              </div>
+            </div>
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.11.jpeg" alt=""></a>
+              <div class="desc">
+                <a href="" class="title">Рефлектор Profoto OCF Zoom</a>
+                <div class="price">17 900₽</div>
+              </div>
+            </div>
+            <div class="single-search-product d-flex">
+              <a href=""><img src="img/shop/top-products.12.jpg" alt=""></a>
+              <div class="desc">
+                <a href="" class="title">Lowepro Tahoe BP 150 </a>
+                <div class="price">8 699₽</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+	</section>
+	<!-- конец карусельки с товарами -->  	
+
+  <!-- нижний футер блок -->	
+	<footer>
+		<div class="footer-area footer-only">
+			<div class="container">
+				<div class="row section_gap">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets ">
+							<h4 class="footer_title large_title">Наша Миссия</h4>
+							<p>
+								Мы созданы для того, чтобы у каждого возникало желание делать отличные фотокадры и была возможность печатать качественные фотографии.
+							</p>
+							<p>
+								Для вас мы постоянно пополняем и обновляем наш ассортимент, разрабатываем акции и системы выгодных скидок, информируем наших покупателей о появлении новинок. 
+							</p>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Быстрый Доступ</h4>
+							<ul class="list">
+								<li><a href="index.html">Главная</a></li>
+								<li><a href="category.html">Магазин</a></li>
+								<li><a href="blog.html">Блог</a></li>
+								<li><a href="single-product.html">Отзывы</a></li>
+								<li><a href="cart.html">Корзина</a></li>
+								<li><a href="contact.html">Контакты</a></li>
+								<li><a href="#blog">Наверх</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-2 col-md-6 col-sm-6">
+						<div class="single-footer-widget instafeed">
+							<h4 class="footer_title">Галерея</h4>
+							<ul class="list instafeed d-flex flex-wrap">
+								<li><img src="img/main/site.main.img22.jpeg" alt=""></li>
+								<li><img src="img/main/site.main.img23.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img24.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img25.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img26.jpg" alt=""></li>
+								<li><img src="img/main/site.main.img27.jpg" alt=""></li>
+							</ul>
+						</div>
+					</div>
+					<div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+						<div class="single-footer-widget tp_widgets">
+							<h4 class="footer_title">Свяжитесь с нами</h4>
+							<div class="ml-40">
+								<p class="sm-head">
+									<span class="fa fa-location-arrow"></span>
+									Адрес магазина
+								</p>
+								<p>Чапыгина 31к1</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-phone"></span>
+									Контакты
+								</p>
+								<p>
+									+7 (800) 555-35-35  <br>
+									+7 (234) 236-36-36
+								</p>
+	
+								<p class="sm-head">
+									<span class="fa fa-envelope"></span>
+									Почта
+								</p>
+								<p>
+									photoplace@mail.ru<br>
+									photomanager@mail.ru
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- конец нижнего футера -->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
